@@ -1,0 +1,136 @@
+header, footer{
+    background:#504d4d;
+    padding:10px
+  }
+  .footer-columns{
+    flex:50%;
+    margin:20px
+  }
+  .post{
+  background-color:#ffffff;  
+    padding:20px;
+    border-radius:10px;
+    display:flex;
+    margin-bottom:20px
+  }
+  .post img{
+    margin:20px;
+    transition: transform 0.5s;
+  }
+  
+  .post img:hover{
+    transform :rotate(360deg);
+  }
+  
+  main{
+    padding:10px;
+    background:#7c7c7c
+  }
+  
+  header{
+    display:flex
+  }
+  
+  #menu1{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+    z-index:10
+    
+  }
+  #menu1 ul{
+    position:relative;
+    list-style:none;
+    width:100%
+  }
+  #menu1 ul li{
+   position:relative;
+   display:block;
+   float:left
+  }
+  
+  #menu1 ul li a{
+  display:block;
+    padding:9px 25px;
+    font-size:14px;
+    text-transform:uppercase;
+    color:#FAFAFA;
+    text-transform:uppercase;
+    transition: transform 0.3s; 
+  }
+  
+  #menu1 ul li a:hover{
+    transform: scale(1.1) rotate(-5deg);
+    color:#ffffff
+  }
+  
+  #menu1 ul li ul{
+    position:absolute;
+    top:36;
+    display:none;
+      width:200px;
+    background:#696969
+  }
+  
+  #menu1 ul li:hover ul{
+    display:block;
+  }
+  
+  #menu1 ul li ul li{
+    border-top:1px solid #5f5f5f;
+      padding:7px 25px;
+      
+  }
+  
+  #menu1 ul li ul li{
+    float:none;
+    width:100%
+  }
+  
+  
+  h5{
+    color:#424242
+  }
+  .comment{
+    background:#535352;
+    padding:20px;
+    border-radius:10px;
+      margin-top:10px
+  }
+  
+  #sub-comment{
+    margin-left:40px;
+      background:#f5a476
+  
+  }
+  
+  .carousele{
+    margin: 10px;
+    max-width: 100%;
+  }
+  .carousele-element{
+    margin: 40px;
+  }
+  .carousele div img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .slick-prev, .slick-next{
+    border-radius: 50%;
+    width: 40px;
+    z-index: 1;
+    background-color: rgb(0,0,0,0.5);
+  }
+  .slick-dots li button::before{
+    color:black;
+    font-size: 30px;
+  }
+  body{font-family: "Roboto", serif;}
+  h4{font-family: "Roboto", serif;}
+  h3{font-family: "Roboto", serif;}
+  .footer-logo{
+    display: flex;
+  }

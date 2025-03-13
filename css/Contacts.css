@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.contacts h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-item span {
+    color: #333;
+}
+
+.map-container {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+}
